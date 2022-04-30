@@ -1,17 +1,21 @@
 package com.company;
 
-import com.company.Arrays.PairWithGivenSum;
-import com.company.Arrays.PrintSubArraysOfZero;
-import com.company.Arrays.SortingBinaryArray;
-import com.company.Arrays.SubArrayWithSumZero;
+import com.company.Arrays.*;
+
+import java.util.HashSet;
+import java.util.Set;
 
 public class Main {
 
-    public static void main(String[] args) {
-	int [] array = {1,1,0,1,0,1,0};
-    int target = 3;
 
-        SortingBinaryArray sortingBinaryArray = new SortingBinaryArray();
-        sortingBinaryArray.SortBinary(array);
+        public static void main (String[]args){
+            int[] array = {2, 3,5, 8, 1,9, 5};
+            int target = 3;
 
-}}
+            DuplicateElement duplicateElement = new DuplicateElement();
+            duplicateElement.duplicateElement(array);
+
+        }
+
+    }
+
