@@ -9,12 +9,11 @@ public class Main {
 
 
         public static void main (String[]args){
-            int[] array = {2, 3,5, 8, 1,9, 5};
+            int[] array = {0, 1,1, 0, 0,9, 5};
             int target = 3;
 
-            DuplicateElement duplicateElement = new DuplicateElement();
-            duplicateElement.duplicateElement(array);
-
+           LargestSubArrayBinary largestSubArrayBinary = new LargestSubArrayBinary();
+          largestSubArrayBinary.findLargestSubArray(array);
         }
 
     }

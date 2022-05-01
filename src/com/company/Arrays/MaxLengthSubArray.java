@@ -11,7 +11,7 @@ public class MaxLengthSubArray {
         int endingIndex = 0; //Stores the Last index, so we know what to print out.
 
         for (int i = 0; i < array.length; i++) {
-            //First we start at the first Index, then second, then third.
+            //First we start at the first Index, then second, then third and so on.
             int sum = 0; // MUST STORE HERE TO RESET SUM AFTER EACH ITERATION THROUGH.
             for (int j = i; j < array.length; j++) {
                 sum += array[j];
