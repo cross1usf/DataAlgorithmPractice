@@ -8,11 +8,12 @@ import java.util.Set;
 public class Main {
 
         public static void main (String[]args){
-            int[] array = {1 ,2,1};
+            int[] array = {1,2,3,4,5};
             int[] arrayTwo = {2,3,9};
 
-            ConcatenationOfArray concatenationOfArray = new ConcatenationOfArray();
-            concatenationOfArray.getConcatenation(array);
+            ProductOfArrayExceptSelf p = new ProductOfArrayExceptSelf();
+            p.productExceptSelf(array);
+
         }
 
 
