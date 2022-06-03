@@ -9,7 +9,7 @@ public class ReverseAList {
     ListNode head = new ListNode(8);
 
     public class ListNode {
-     int val;
+      int val;
      ListNode next;
      ListNode() {}
       ListNode(int val) {
